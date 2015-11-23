@@ -193,7 +193,7 @@
 <text x="17.399" y="15.113" size="0.889" layer="16" font="vector" ratio="15" rot="MR0" align="center">v01</text>
 <text x="9.525" y="6.604" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center">Cherry MX
 Breakout</text>
-<text x="9.144" y="6.477" size="0.8128" layer="21" font="vector" ratio="15" align="center">Cherry MX Switch
+<text x="9.525" y="6.477" size="0.8128" layer="21" font="vector" ratio="15" align="center">Cherry MX Switch
 Breakout</text>
 <dimension x1="0" y1="0" x2="6.0325" y2="1.27" x3="3.01625" y3="-1.778" textsize="0.889" textratio="15" layer="47" dtype="horizontal" width="0.1016" unit="inch" precision="4"/>
 <dimension x1="0" y1="0" x2="10.795" y2="1.27" x3="5.3975" y3="-6.985" textsize="0.889" textratio="15" layer="47" dtype="horizontal" width="0.1016" unit="inch" precision="3"/>
@@ -420,10 +420,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="A" x="-1.27" y="0" drill="0.9" diameter="1.8796"/>
 <pad name="C" x="1.27" y="0" drill="0.9" diameter="1.8796"/>
 <wire x1="0.762" y1="-1.1938" x2="1.778" y2="-1.1938" width="0.254" layer="21"/>
-<wire x1="-0.1778" y1="0.508" x2="-0.1778" y2="-0.508" width="0.1016" layer="21"/>
-<wire x1="-0.1778" y1="-0.508" x2="0.1778" y2="0" width="0.1016" layer="21"/>
-<wire x1="0.1778" y1="0" x2="-0.1778" y2="0.508" width="0.1016" layer="21"/>
-<wire x1="0.1778" y1="0.508" x2="0.1778" y2="-0.508" width="0.1016" layer="21"/>
+<wire x1="-0.1778" y1="0.508" x2="-0.1778" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="-0.1778" y1="-0.508" x2="0.1778" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="0" x2="-0.1778" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="0.508" x2="0.1778" y2="-0.508" width="0.1524" layer="21"/>
 </package>
 <package name="STAND-OFF-2-56">
 <wire x1="0" y1="1.3462" x2="0" y2="-1.3462" width="0.2032" layer="41" curve="-180"/>
@@ -445,14 +445,18 @@ We've spent an enormous amount of time creating and checking these footprints an
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="AXIAL-0.1">
-<wire x1="1.27" y1="-0.762" x2="1.27" y2="0" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="1.524" y1="0" x2="1.27" y2="0" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="0" x2="1.016" y2="0" width="0.2032" layer="21"/>
 <pad name="P$1" x="0" y="0" drill="0.9" diameter="1.8796"/>
 <pad name="P$2" x="2.54" y="0" drill="0.9" diameter="1.8796"/>
 <text x="0" y="1.27" size="1.016" layer="25" font="vector" ratio="15">&gt;Name</text>
 <text x="0" y="-2.159" size="1.016" layer="21" font="vector" ratio="15">&gt;Value</text>
+<wire x1="1.27" y1="0.762" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.0922" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="1.0922" y1="0.508" x2="1.4478" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.4478" y1="0.254" x2="1.0922" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.0922" y1="0" x2="1.4478" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="1.4478" y1="-0.254" x2="1.0922" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="1.0922" y1="-0.508" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="1.27" y2="-0.762" width="0.1524" layer="21"/>
 </package>
 </packages>
 </library>

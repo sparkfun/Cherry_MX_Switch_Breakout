@@ -7550,10 +7550,10 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <pad name="A" x="-1.27" y="0" drill="0.9" diameter="1.8796"/>
 <pad name="C" x="1.27" y="0" drill="0.9" diameter="1.8796"/>
 <wire x1="0.762" y1="-1.1938" x2="1.778" y2="-1.1938" width="0.254" layer="21"/>
-<wire x1="-0.1778" y1="0.508" x2="-0.1778" y2="-0.508" width="0.1016" layer="21"/>
-<wire x1="-0.1778" y1="-0.508" x2="0.1778" y2="0" width="0.1016" layer="21"/>
-<wire x1="0.1778" y1="0" x2="-0.1778" y2="0.508" width="0.1016" layer="21"/>
-<wire x1="0.1778" y1="0.508" x2="0.1778" y2="-0.508" width="0.1016" layer="21"/>
+<wire x1="-0.1778" y1="0.508" x2="-0.1778" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="-0.1778" y1="-0.508" x2="0.1778" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="0" x2="-0.1778" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="0.508" x2="0.1778" y2="-0.508" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -8063,14 +8063,18 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <circle x="2.54" y="0" radius="0.4572" width="0" layer="29"/>
 </package>
 <package name="AXIAL-0.1">
-<wire x1="1.27" y1="-0.762" x2="1.27" y2="0" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="1.524" y1="0" x2="1.27" y2="0" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="0" x2="1.016" y2="0" width="0.2032" layer="21"/>
 <pad name="P$1" x="0" y="0" drill="0.9" diameter="1.8796"/>
 <pad name="P$2" x="2.54" y="0" drill="0.9" diameter="1.8796"/>
 <text x="0" y="1.27" size="1.016" layer="25" font="vector" ratio="15">&gt;Name</text>
 <text x="0" y="-2.159" size="1.016" layer="21" font="vector" ratio="15">&gt;Value</text>
+<wire x1="1.27" y1="0.762" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.0922" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="1.0922" y1="0.508" x2="1.4478" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.4478" y1="0.254" x2="1.0922" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.0922" y1="0" x2="1.4478" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="1.4478" y1="-0.254" x2="1.0922" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="1.0922" y1="-0.508" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="1.27" y2="-0.762" width="0.1524" layer="21"/>
 </package>
 <package name="0402-RES">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
