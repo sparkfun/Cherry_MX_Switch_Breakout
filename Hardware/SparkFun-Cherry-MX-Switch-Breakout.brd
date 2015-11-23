@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -214,6 +214,14 @@ Breakout</text>
 <wire x1="13.97" y1="15.875" x2="15.24" y2="15.875" width="0.254" layer="30"/>
 <wire x1="14.605" y1="3.175" x2="15.875" y2="3.175" width="0.254" layer="30"/>
 <wire x1="15.24" y1="17.399" x2="15.24" y2="18.161" width="0.254" layer="22"/>
+<wire x1="17.018" y1="0.381" x2="17.145" y2="0.508" width="0.254" layer="21"/>
+<wire x1="17.145" y1="0.508" x2="17.145" y2="0.889" width="0.254" layer="21"/>
+<wire x1="17.78" y1="0.762" x2="17.145" y2="0.889" width="0.254" layer="21"/>
+<wire x1="18.669" y1="2.032" x2="18.542" y2="1.905" width="0.254" layer="21"/>
+<wire x1="17.78" y1="0.762" x2="17.653" y2="1.397" width="0.254" layer="21"/>
+<wire x1="18.288" y1="1.27" x2="17.653" y2="1.397" width="0.254" layer="21"/>
+<wire x1="18.288" y1="1.27" x2="18.161" y2="1.905" width="0.254" layer="21"/>
+<wire x1="18.542" y1="1.905" x2="18.161" y2="1.905" width="0.254" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -445,18 +453,14 @@ We've spent an enormous amount of time creating and checking these footprints an
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="AXIAL-0.1">
+<wire x1="1.27" y1="-0.762" x2="1.27" y2="0" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="1.524" y1="0" x2="1.27" y2="0" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0" x2="1.016" y2="0" width="0.2032" layer="21"/>
 <pad name="P$1" x="0" y="0" drill="0.9" diameter="1.8796"/>
 <pad name="P$2" x="2.54" y="0" drill="0.9" diameter="1.8796"/>
 <text x="0" y="1.27" size="1.016" layer="25" font="vector" ratio="15">&gt;Name</text>
 <text x="0" y="-2.159" size="1.016" layer="21" font="vector" ratio="15">&gt;Value</text>
-<wire x1="1.27" y1="0.762" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.0922" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="1.0922" y1="0.508" x2="1.4478" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="1.4478" y1="0.254" x2="1.0922" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.0922" y1="0" x2="1.4478" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="1.4478" y1="-0.254" x2="1.0922" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="1.0922" y1="-0.508" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="1.27" y2="-0.762" width="0.1524" layer="21"/>
 </package>
 </packages>
 </library>
@@ -717,7 +721,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="4.2545" y="3.7465" rot="MR0"/>
 <element name="STANDOFF2" library="cherry-temp" package="STAND-OFF-2-56" value="STAND-OFF2-56" x="1.5875" y="1.5875"/>
 <element name="STANDOFF1" library="cherry-temp" package="STAND-OFF-2-56" value="STAND-OFF2-56" x="17.4625" y="17.4625"/>
-<element name="JP7" library="SparkFun-Connectors" package="1X02_NO_SILK" value="" x="-25.4" y="-26.67"/>
 </elements>
 <signals>
 <signal name="N$1">
