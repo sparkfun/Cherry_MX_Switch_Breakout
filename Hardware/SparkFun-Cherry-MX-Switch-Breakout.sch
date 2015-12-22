@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -7550,10 +7550,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <pad name="A" x="-1.27" y="0" drill="0.9" diameter="1.8796"/>
 <pad name="C" x="1.27" y="0" drill="0.9" diameter="1.8796"/>
 <wire x1="0.762" y1="-1.1938" x2="1.778" y2="-1.1938" width="0.254" layer="21"/>
-<wire x1="-0.1778" y1="0.508" x2="-0.1778" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="-0.1778" y1="-0.508" x2="0.1778" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.1778" y1="0" x2="-0.1778" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="0.1778" y1="0.508" x2="0.1778" y2="-0.508" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -9683,7 +9679,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <sheets>
 <sheet>
 <plain>
-<text x="238.76" y="7.62" size="2.54" layer="94">v01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">v10</text>
 <text x="171.45" y="11.43" size="2.54" layer="94">Jim Lindblom</text>
 <text x="83.82" y="83.82" size="1.905" layer="97" align="top-left">SJ1 shorts across R1, 
 effectively removing the 
