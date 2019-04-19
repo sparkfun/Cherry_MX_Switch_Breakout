@@ -1,7 +1,16 @@
 SparkFun Cherry MX Switch Breakout
 ====================
 
-[![SparkFun Cherry MX Switch Breakout](https://cdn.sparkfun.com//assets/parts/1/1/3/2/5/Cherry_MX_Switch_Tutorial-03.jpg)](https://www.sparkfun.com/products/13773)
+<table class="table table-hover table-striped table-bordered">
+  <tr align="center">
+   <td><a href="https://www.sparkfun.com/products/13773"><img src="https://cdn.sparkfun.com//assets/parts/1/1/3/2/5/13773-01.jpg" alt="SparkFun Cherry MX Switch Breakout"></a></td>
+   <td><a href="https://www.sparkfun.com/products/13773"><img src="https://cdn.sparkfun.com//assets/parts/1/1/3/2/5/13834-05a.jpg" alt="Cherry MX Switch Soldered on Breakout"></a></td>
+  </tr>
+  <tr align="center">
+    <td><i>SparkFun Cherry MX Switch Breakout </i></td>
+    <td><i>Cherry MX Switch Soldered on Breakout</i></td>
+  </tr>
+</table>
 
 [*SparkFun Cherry MX Switch Breakout (BOB-13773)*](https://www.sparkfun.com/products/13773)
 
